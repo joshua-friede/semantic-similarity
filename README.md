@@ -13,3 +13,6 @@ Command line program written in java to semantically analyze words in ebooks
          valid options: cosine, euc, eucnorm
          
 -k "n,m" return n k-means clusters with m k-means iterations
+
+
+depends on org.apache.commons.cli v1.4 and opennlp.tools v1.8.3
