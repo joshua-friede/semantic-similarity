@@ -1,7 +1,7 @@
 # semantic-similarity
 Final project for CS2230
 
-This is a simple command line program written in java
+Command line program written in java to semantically analyze words in ebooks
 
 -f "path/to/file.txt" specify path text file
 
