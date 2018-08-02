@@ -1,8 +1,10 @@
 # semantic-similarity
 Final project for CS2230
 
-Command line program written in java to semantically analyze words in ebooks
+A Java command-line tool used to analyze the semantic usage of words in literature to understand their meanings and group similar words via k-means clustering
 
+
+"""
 -f "path/to/file.txt" specify path text file
 
 -v "w" returns the semantic descriptor vector for word w
@@ -13,6 +15,7 @@ Command line program written in java to semantically analyze words in ebooks
          valid options: cosine, euc, eucnorm
          
 -k "n,m" return n k-means clusters with m k-means iterations
+"""
 
 
 uses org.apache.commons.cli v1.4 for the command line interface
